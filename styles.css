@@ -1,0 +1,40 @@
+* {
+    color: darkred;
+    background-color: #ffffee;
+    font-family: Helvetica, Arial, sans-serif ;
+    box-sizing: content-box;
+    margin: 5px;
+}
+.no-background {
+    background-color: transparent;
+}
+img {
+    display: block;
+}
+h1 {
+    color: red;
+    background-color: #eeeedd;
+}
+.h1 {
+    width: fit-content;
+    margin: auto;
+}
+#main-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    text-decoration-line: none;
+    text-align: center;
+    background-color: transparent;
+    border: 8px double red;
+}
+li {
+    background-color: pink;
+    width: fit-content;
+}
+ul li {
+    font-size: 18px;
+}
+ol li {
+    font-size: 20px;
+}
