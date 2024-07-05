@@ -34,7 +34,7 @@ ol li {
     background-color: #eeeedd;
     color: red;
     border: 8px double red;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #recipe-list {
@@ -50,5 +50,5 @@ ol li {
     background-color: pink;
     text-align: center;
     padding: 8px;
-    margin: auto;
+    margin: 0 auto;
 }
