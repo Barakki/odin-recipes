@@ -9,22 +9,21 @@
 }
 img {
     display: block;
+    margin: auto;
 }
 h1 {
     color: red;
     background-color: #eeeedd;
 }
 li {
-    width: fit-content;
-}
-ul li {
     font-size: 24px;
 }
-ol li {
-    font-size: 24px;
-}
-.title {
+.flex {
     display: flex;
+    flex-wrap: wrap;
+}
+.nolist {
+    list-style: none;
 }
 #main-title {
     text-align: center;
@@ -34,21 +33,36 @@ ol li {
     background-color: #eeeedd;
     color: red;
     border: 8px double red;
-    margin: 0 auto;
+    margin: 8px auto;
 }
-
 #recipe-list {
-    display: flex;
-    list-style: none;
+    justify-content: center;
 }
 .recipe img {
-    height: 250px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
     margin: 8px;
 }
 .recipe {
     background-color: pink;
     text-align: center;
+    font-weight: bold;
     padding: 8px;
-    margin: 0 auto;
+    margin: 8px 8px;
+    flex: 0 1 0%;
+}
+.border {
+    padding: 4px;
+    width: fit-content;
+    border: 2px dotted red;
+}
+#ingredient-list {
+    flex: 1 1 auto;
+    margin: 0 0;
+}
+.ingredient {
+    width: fit-content;
+    background-color: pink;
+    padding: 4px;
+    margin: 4px 5%;
 }
